@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="loader-container">
+        <div class="loader-content">
+            <div class="spinner">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div class="bar4"></div>
+                <div class="bar5"></div>
+                <div class="bar6"></div>
+                <div class="bar7"></div>
+                <div class="bar8"></div>
+                <div class="bar9"></div>
+                <div class="bar10"></div>
+                <div class="bar11"></div>
+                <div class="bar12"></div>
+            </div>
+            <p class="loader-text"> Loading...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="theme-toggle">
+            <input type="checkbox" id="themeToggle">
+            <label for="themeToggle"></label>
+        </div>
+
+        <div class="header">
+            <h2>Login Page</h2>
+        </div>
+        <div class="input">
+            <input class="username" type="text" placeholder="Enter your Username" required>
+            <input class="password" type="password" placeholder="Enter your password" required>
+        </div>
+        <p class="error"></p>
+        <div class="btn">
+            <button id="loginbtn" onclick="validateLogin()">Login</button>
+            <button onclick="resetForm()">Reset</button>
+        </div>
+    </div>
+
+    <script src="preloader.js"></script>
+</body>
+
+</html>
