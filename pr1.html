@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>my name is deepak</p>
+    <button id="btn1">red</button>
+    <button id="btn2">green</button>
+    <script>
+        const a=document.querySelector('p')
+        const btn1=document.querySelector('#btn1')
+        const btn2=document.querySelector('#btn2')
+        btn1.addEventListener('click', function(){
+           a.style.backgroundColor='red';
+          
+        })
+        btn2.addEventListener('click', function(){
+           a.style.backgroundColor='green';
+          
+        })
+    </script>
+    
+</body>
+</html>
