@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: #0f172a;
+  flex-wrap: wrap;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #cbd5f5;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.main {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.maintext {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.span {
+  font-size: 16px;
+  color: #475569;
+  max-width: 700px;
+  margin: auto;
+  display: block;
+}
+
+.product-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+
+.product-card {
+  background-color: #ffffff;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 9px;
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.product-desc {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.sale-price {
+  color: #16a34a;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cart-btn {
+  width: 100%;
+  padding: 9px;
+  
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.cart-btn:hover {
+  background-color: #1d4ed8;
+}
+
+footer.header {
+  justify-content: center;
+  padding: 14px;
+  margin-top: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .header {
+    padding: 14px 20px;
+  }
+
+  .maintext {
+    font-size: 28px;
+  }
+
+  .product-img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav {
+    gap: 14px;
+  }
+
+  .main {
+    padding: 40px 16px;
+  }
+
+  .maintext {
+    font-size: 24px;
+  }
+
+  .span {
+    font-size: 14px;
+  }
+
+  .product-img {
+    height: 150px;
+  }
+}
