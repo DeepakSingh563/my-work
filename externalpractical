@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal Spice Restaurant</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #8B0000;
+            margin-bottom: 20px;
+        }
+
+        .images img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .menu {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .menu > ul > li {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .menu ul ul {
+            margin-top: 8px;
+            margin-left: 20px;
+            list-style-type: disc;
+            color: #555;
+            font-size: 16px;
+        }
+
+        .reservation a {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .reservation a:hover {
+            background-color: #1ebe5d;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍽 Royal Spice Restaurant</h1>
+    <p>Experience the Taste of Perfection</p>
+</header>
+
+<section class="images">
+    <h2>Our Special Dishes</h2>
+    <img src="https://images.unsplash.com/photo-1604908177522-4328e1b52f0e" alt="Pizza">
+    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b" alt="Pasta">
+</section>
+
+<section>
+    <h2>📜 Our Menu</h2>
+    <div class="menu">
+        <ul>
+            <li><strong>Starters</strong>
+                <ul>
+                    <li>Tomato Soup - ₹120</li>
+                    <li>Spring Rolls - ₹150</li>
+                    <li>Garlic Bread - ₹100</li>
+                </ul>
+            </li>
+            <li><strong>Main Course</strong>
+                <ul>
+                    <li>Veg Biryani - ₹220</li>
+                    <li>Paneer Butter Masala - ₹250</li>
+                    <li>Chicken Curry - ₹300</li>
+                </ul>
+            </li>
+            <li><strong>Desserts</strong>
+                <ul>
+                    <li>Ice Cream - ₹90</li>
+                    <li>Chocolate Cake - ₹150</li>
+                    <li>Gulab Jamun - ₹80</li>
+                </ul>
+            </li>
+            <li><strong>Beverages</strong>
+                <ul>
+                    <li>Cold Drink - ₹50</li>
+                    <li>Coffee - ₹70</li>
+                    <li>Fresh Juice - ₹110</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="reservation">
+    <h2>📅 Make a Reservation</h2>
+    <p>Reserve your table instantly on WhatsApp!</p>
+    <a href="https://wa.me/919876543210?text=Hello%20Royal%20Spice%20Restaurant,%20I%20would%20like%20to%20book%20a%20table." target="_blank">
+        Book via WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>📍 Location: Main Street, Your City</p>
+    <p>📞 Contact: +91 9876543210</p>
+    <p>© 2026 Royal Spice Restaurant</p>
+</footer>
+
+</body>
+</html>
